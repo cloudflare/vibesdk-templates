@@ -1,0 +1,22 @@
+name: "minimal-js"
+description: "Beautiful vanilla HTML, CSS, and JavaScript template with modern UI design. No frameworks - just clean, hand-crafted code for stunning web apps."
+base_reference: "minimal-js-reference"
+projectType: app
+renderMode: browser
+
+package_patches:
+  name: "minimal-js"
+
+excludes:
+  - "worker/**"
+  - "scripts/**"
+  - "eslint.config.js"
+  - "tsconfig.json"
+  - ".eslintcache"
+  - ".donttouch_files.json"
+  - ".important_files.json"
+  - ".redacted_files.json"
+
+template_specific_files:
+  - wrangler.jsonc
+  - prompts/

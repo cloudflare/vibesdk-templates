@@ -1,15 +1,13 @@
 /**
- * Minimal JS template — overrides only the worker name
+ * Minimal JS template — static HTML/CSS/JS only, no worker
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "minimal-js",
-  "main": "worker/index.ts",
   "compatibility_date": "2025-04-24",
   "assets": {
     "directory": "public",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
+    "not_found_handling": "single-page-application"
   },
   "observability": {
     "enabled": true
