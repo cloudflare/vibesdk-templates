@@ -1,0 +1,7 @@
+-- Add your D1 schema here
+-- Example:
+-- CREATE TABLE IF NOT EXISTS items (
+--   id TEXT PRIMARY KEY,
+--   name TEXT NOT NULL,
+--   created_at TEXT NOT NULL
+-- );
