@@ -32,8 +32,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Orange dummy homepage</title>
-        <meta name="description" content="AI-powered application builder powered by Cloudflare." />
+        <title>Creating your app</title>
+        <meta name="description" content="AI-powered application builder powered by CodeChi." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -95,7 +95,7 @@ export default function Home() {
         </motion.div>
 
         <footer className="absolute bottom-8 text-center text-muted-foreground/80">
-          <p>Powered by Cloudflare</p>
+          <p>Powered by <a href="https://codechi.ai" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors">CodeChi</a></p>
         </footer>
       </main>
     </>

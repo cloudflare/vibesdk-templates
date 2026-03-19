@@ -2,6 +2,7 @@ name: "vite-cf-DO-KV-runner"
 description: "Vite/React application with Cloudflare Durable Objects and KV storage"
 base_reference: "vite-reference"
 projectType: app
+disabled: true
 
 # Patch package.json to match original template name
 package_patches:

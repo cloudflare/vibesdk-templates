@@ -4,7 +4,7 @@
  */
  {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "test-project",
+	"name": "vite-cf-do-kv-runner",
 	"main": "worker/index.ts",
 	"compatibility_date": "2025-04-24",
 	"assets": {
