@@ -1,0 +1,7 @@
+name: "voice-byok-runner"
+description: "Voice-first React SPA — VAD-based listening, gpt-4o-audio-preview via the platform's BYOK proxy. Single mic button, no chat thread."
+base_reference: "vite-reference"
+projectType: app
+# Patch package.json to match template name
+package_patches:
+  name: "voice-byok-runner"
