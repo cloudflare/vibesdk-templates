@@ -1,0 +1,29 @@
+{
+  "name": "rwsdk-app",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "preview": "vite preview",
+    "release": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-server-dom-webpack": "^19.1.0",
+    "rwsdk": "^1.0.0-beta.53",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/vite": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.0.6",
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "typescript": "^5.8.2",
+    "vite": "^6.3.5",
+    "wrangler": "^4.14.0"
+  }
+}

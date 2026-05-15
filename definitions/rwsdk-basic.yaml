@@ -1,0 +1,7 @@
+name: "rwsdk-basic"
+description: "Full-stack RedwoodSDK app with React Server Components, server functions, and D1 database on Cloudflare Workers"
+base_reference: "rwsdk-reference"
+projectType: app
+
+package_patches:
+  name: "rwsdk-basic"
